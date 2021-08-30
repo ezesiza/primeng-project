@@ -1,0 +1,25 @@
+<div class="p-grid">
+  <div class="p-col1">
+    <p-panel header="History Panel">
+      <div class="p-grid" *ngIf="history.length">
+        <div class="p-col1" >
+            <p-card *ngFor="let item of history">
+                <ul>
+                  <li>Book ISBN: {{item.isbn}}</li>
+                  <li>Book Title: {{item.title}}</li>
+                  <li>Author: {{item.authors}}</li>
+                </ul>
+              </p-card>
+            </div>
+          </div>
+    </p-panel>
+  </div>
+  <div class="p-col2">
+    <p-panel header="Books List Panel" class="p-m-0">
+      <p-tabMenu [model]="items" #tab [activeItem]="tab.activeItem?.label">
+      </p-tabMenu>
+    </p-panel>
+    <router-outlet>
+    </router-outlet>
+  </div>
+</div>

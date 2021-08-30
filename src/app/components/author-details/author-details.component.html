@@ -1,0 +1,22 @@
+<h1>Books by: {{author}}</h1>
+<p-progressSpinner *ngIf="isLoading"></p-progressSpinner>
+<p-table *ngIf="!isLoading" [columns]="cols" [value]="books" styleClass="p-datatable-responsive-demo">
+  <ng-template pTemplate="header" let-columns>
+    <tr>
+      <th *ngFor="let col of columns">
+        {{col.header}}
+      </th>
+    </tr>
+  </ng-template>
+  <ng-template pTemplate="body" let-rowData let-columns="columns">
+    <tr>
+      <td (click)="showBookDetails(rowData)">{{rowData.id}}</td>
+      <td>{{rowData.title}}</td>
+      <td>{{rowData.isbn}}</td>
+      <td><p-button type="button" #tab1 label="Details"  [routerLink]="['/table/details/', rowData.id]"></p-button> </td>
+    </tr>
+  </ng-template>
+</p-table>
+
+<p-button label="Back" icon="pi pi-times" routerLink="/table" styleClass="p-button-secondary" [style]="{'margin': '1.5em'}"></p-button>
+

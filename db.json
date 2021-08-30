@@ -1,9 +1,29 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-servers", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "books": [],
+  "history": [
+    {
+      "isbn": "55600899765532",
+      "title": "Shawshank Redemption",
+      "authors": "Stephen King",
+      "id": 29
+    },
+    {
+      "isbn": "001286",
+      "title": "The Juror",
+      "authors": "John Grisham",
+      "id": 6
+    },
+    {
+      "isbn": "0005987",
+      "title": "A Time to Kill",
+      "authors": "John Grisham",
+      "id": 10
+    },
+    {
+      "isbn": "09666357",
+      "title": "The Firm",
+      "authors": "John Grisham",
+      "id": 18
+    }
+  ]
 }
