@@ -1,5 +1,12 @@
 {
-  "books": [],
+  "books": [
+    {
+      "isbn": "00987634",
+      "title": "Things Fall Apart",
+      "authors": "Chinua Achebe",
+      "id": 1
+    }
+  ],
   "history": [
     {
       "isbn": "55600899765532",
@@ -24,6 +31,12 @@
       "title": "The Firm",
       "authors": "John Grisham",
       "id": 18
+    },
+    {
+      "isbn": "00987634",
+      "title": "Things Fall Apart",
+      "authors": "Chinua Achebe",
+      "id": 1
     }
   ]
 }
