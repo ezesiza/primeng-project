@@ -1,0 +1,78 @@
+{
+  "books": [
+    {
+      "isbn": "00987634",
+      "title": "Things Fall Apart",
+      "authors": "Chinua Achebe",
+      "id": 1
+    },
+    {
+      "isbn": "8712334",
+      "title": "Americanah",
+      "authors": "Chimamanda Ngozi Adichie",
+      "id": 2
+    },
+    {
+      "isbn": "3398474",
+      "title": "Half of a Yellow Sun",
+      "authors": "Chimamanda Ngozi Adichie",
+      "id": 3
+    },
+    {
+      "isbn": "23333",
+      "title": "Christmas in Biafra",
+      "authors": "Chinua Achebe",
+      "id": 4
+    }
+  ],
+  "history": [
+    {
+      "isbn": "55600899765532",
+      "title": "Shawshank Redemption",
+      "authors": "Stephen King",
+      "id": 29
+    },
+    {
+      "isbn": "001286",
+      "title": "The Juror",
+      "authors": "John Grisham",
+      "id": 6
+    },
+    {
+      "isbn": "0005987",
+      "title": "A Time to Kill",
+      "authors": "John Grisham",
+      "id": 10
+    },
+    {
+      "isbn": "09666357",
+      "title": "The Firm",
+      "authors": "John Grisham",
+      "id": 18
+    },
+    {
+      "isbn": "00987634",
+      "title": "Things Fall Apart",
+      "authors": "Chinua Achebe",
+      "id": 1
+    },
+    {
+      "isbn": "3398474",
+      "title": "Half of a Yellow Sun",
+      "authors": "Chimamanda Ngozi Adichie",
+      "id": 3
+    },
+    {
+      "isbn": "8712334",
+      "title": "Americanah",
+      "authors": "Chimamanda Ngozi Adichie",
+      "id": 2
+    },
+    {
+      "isbn": "23333",
+      "title": "Christmas in Biafra",
+      "authors": "Chinua Achebe",
+      "id": 4
+    }
+  ]
+}

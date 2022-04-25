@@ -1,0 +1,13 @@
+<h1>Book Detail</h1>
+<p-progressSpinner *ngIf="isLoading"></p-progressSpinner>
+
+<p-card *ngIf="!isLoading" header="{{book.title}}" subheader="{{book.isbn}}" [style]="{width: '360px'}" styleClass="p-card-shadow" >
+  <ng-template pTemplate="header">
+    <img alt="Book Card" src="assets/usercard.png">
+  </ng-template>
+  <p>{{book.authors}}</p>
+    <ng-template pTemplate="footer">
+      <p-button label="Back" icon="pi pi-times" routerLink="/table" styleClass="p-button-secondary" [style]="{'margin-left': '.5em'}"></p-button>
+    </ng-template>
+  </p-card>
+  <p-divider></p-divider>
